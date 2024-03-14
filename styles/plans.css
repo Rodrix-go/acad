@@ -1,0 +1,48 @@
+.plans{
+    align-items: center;
+    text-align: center;
+}
+
+.plans__tittle{
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.plans__text{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.plans__grid{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plans__grid-container{
+    background: var(--second-color);
+
+    border-radius: 30px;
+    padding: 100px;
+}
+
+.plans__grid-title{
+
+    color: var(--main-color);
+    font-size:32px ;
+}
+
+.plans__grid-text{
+    font-size:25px ;
+    font-weight: 400;
+    margin-bottom: 100px;    
+}
+
+.plans__grid-list-item{
+    display: flex;
+}

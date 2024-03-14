@@ -29,18 +29,18 @@
 .benefits__list-item {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 1px;
+    gap: 15px;
+    margin: 40px;
 }
 
 .benefits__list-text {
     font-size: 20px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
 }
 
 .ajuste {
 
-    margin-top: 32px;
+    margin-top: 70px;
 
 }
