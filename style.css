@@ -1,0 +1,25 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/benefits.css");
+@import url("styles/topico.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --main-color: #E91C5D;
+    --main-light-color: #e7376f;
+    --background-color: #000;
+    --second-color: #262626;
+    --third-color: #1B1A1A;
+    --font-color: #FFF;
+    --main-font: "Ubuntu";
+}
+
+
+.body_project {
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--font-color);
+}
