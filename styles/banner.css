@@ -28,6 +28,7 @@
 
     background-color: var(--main-color);
     border-radius: 50px;
+    border: 5px var(--main-color);
     padding: 15px;
     margin: 0 auto;
 }

@@ -1,16 +1,17 @@
-.plans{
+.plans {
     align-items: center;
     text-align: center;
+    height: 100vh;
 }
 
-.plans__tittle{
+.plans__tittle {
     margin-top: 30px;
     font-size: 32px;
     font-weight: 700;
 
 }
 
-.plans__text{
+.plans__text {
     margin-top: 10px;
     font-size: 32px;
     font-weight: 300;
@@ -18,31 +19,42 @@
 
 }
 
-.plans__grid{
-    margin-top: 50px;
+.plans__grid {
+    margin: 50px 60px 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 120px;
 }
 
-.plans__grid-container{
+.plans__grid-container {
     background: var(--second-color);
-
     border-radius: 30px;
-    padding: 100px;
+    padding: 25px 70px;
 }
 
-.plans__grid-title{
+.plans__grid-title {
 
     color: var(--main-color);
-    font-size:32px ;
+    font-size: 32px;
 }
 
-.plans__grid-text{
-    font-size:25px ;
+.plans__grid-price {
+    font-size: 25px;
     font-weight: 400;
-    margin-bottom: 100px;    
+    margin-bottom: 23px;
+
 }
 
-.plans__grid-list-item{
+
+.plans__grid-list-item {
     display: flex;
+    margin-bottom: 36px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.list_item_noacess {
+    color: var(--fourth-color);
+
 }

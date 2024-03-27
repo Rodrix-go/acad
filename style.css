@@ -2,8 +2,8 @@
 @import url("styles/banner.css");
 @import url("styles/benefits.css");
 @import url("styles/plans.css");
-@import url("styles/contato.css");
-@import url("styles/rodape.css");
+@import url("styles/review.css");
+@import url("styles/newsletter.css");
 
 :root {
     --main-color: #E91C5D;
@@ -11,6 +11,7 @@
     --background-color: #000;
     --second-color: #262626;
     --third-color: #1B1A1A;
+    --fourth-color: #8C8C8C;
     --font-color: #FFF;
     --main-font: "Ubuntu";
 }
