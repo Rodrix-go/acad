@@ -37,3 +37,28 @@
     background-color: var(--main-light-color);
 
 }
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner__container__text {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner__title {
+        font-size: 20px;
+    }
+
+    .banner__text {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+}
